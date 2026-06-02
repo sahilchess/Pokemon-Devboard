@@ -20,6 +20,8 @@ This repository contains the complete hardware design and production outputs for
 - **Regulator:** MCP1700 3.3V LDO
 - **Clock:** 4-pin crystal with external load capacitors
 - **User input:** Push button
+- **Built-in Button** Push Button
+- **Built-in LED** Just like the cool kids
 
 ## Repository structure
 
@@ -29,7 +31,7 @@ This repository contains the complete hardware design and production outputs for
   - `Pokemon Devboard.kicad_pcb`
   - `Pokemon Devboard.kicad_pro`
 
-- `/production_no_zip`  
+- `/production`  
   Uncompressed manufacturing outputs (Gerbers, drill files, BOM/position files, ODB package).
 
 - `PRODUCTION.zip`  
