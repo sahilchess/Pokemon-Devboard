@@ -1,4 +1,4 @@
-# [The Pikachu — A Pokemon Devboard](https://kicanvas.org/?repo=https%3A%2F%2Fgithub.com%2Fsahilchess%2FThe-Pikachu-Devboard%2Ftree%2Fmain%2FPCB_DESIGN)
+# [The Pikachu — A Pokemon Devboard](https://kicanvas.org/?repo=https%3A%2F%2Fgithub.com%2Fsahilchess%2FThe-Pikachu-Devboard%2Fblob%2Fmain%2FPCD_DESIGN%2FPokemon%2520Devboard.kicad_pro)
 
 A custom RP2040-based devboard inspired by Pikachu, designed in KiCad.
 
