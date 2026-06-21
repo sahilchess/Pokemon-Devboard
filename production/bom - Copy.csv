@@ -6,7 +6,7 @@ Designator,Footprint,Quantity,Value,LCSC Part #
 D1,0805,1,LED,C2297
 J1,USB_C_Receptacle_HRO_TYPE-C-31-M-12,1,USB_C_Receptacle_USB2.0_14P,C165948
 J2,PinHeader_1x20_P2.54mm_Vertical,1,LEFT_CONN,C50981
-J3,PinHeader_1x20_P2.54mm_Vertical,1,RIGHT_CONN,
+J3,PinHeader_1x20_P2.54mm_Vertical,1,RIGHT_CONN,C50981
 J5,PinHeader_1x03_P2.54mm_Vertical,1,DEBUG_CONN,C49257
 "R1, R2",0402,2,5.1K,C25905
 "R3, R4",0402,2,27,C25100
