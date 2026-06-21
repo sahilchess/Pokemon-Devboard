@@ -7641,7 +7641,7 @@
 			)
 		)
 	)
-	(global_label "USB_DN"
+	(global_label "USB_D-"
 		(shape bidirectional)
 		(at 111.76 102.87 180)
 		(fields_autoplaced yes)
@@ -7653,7 +7653,7 @@
 		)
 		(uuid "4d7fb15d-eb03-47b0-8b00-71ff95ef6759")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 100.2854 102.87 0)
+			(at 100.0435 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8289,7 +8289,7 @@
 			)
 		)
 	)
-	(global_label "USB_DP"
+	(global_label "USB_D+"
 		(shape bidirectional)
 		(at 111.76 105.41 180)
 		(fields_autoplaced yes)
@@ -8301,7 +8301,7 @@
 		)
 		(uuid "a73c1635-9346-459a-a048-162e99edfc88")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 100.3459 105.41 0)
+			(at 100.0435 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12641,7 +12641,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 76.2 87.122 90)
 			(hide yes)
 			(show_name no)
@@ -13262,7 +13262,7 @@
 				)
 			)
 		)
-		(property "Value" "27"
+		(property "Value" "22"
 			(at 116.84 107.442 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14642,7 +14642,7 @@
 				)
 			)
 		)
-		(property "Value" "27"
+		(property "Value" "22"
 			(at 116.84 100.838 90)
 			(show_name no)
 			(do_not_autoplace no)
