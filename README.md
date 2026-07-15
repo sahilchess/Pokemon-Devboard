@@ -1,53 +1,34 @@
-# [The Pikachu — A Pokemon Devboard](https://kicanvas.org/?repo=https%3A%2F%2Fgithub.com%2Fsahilchess%2FThe-Pikachu-Devboard%2Ftree%2Fmain%2FPCB_DESIGN)
-
-A custom RP2040-based devboard inspired by Pikachu, designed in KiCad.
-
-![image](https://user-cdn.hackclub-assets.com/019e6a41-a0c9-72ff-a453-7fc2e9fa08f6/The%20Pikachu%20V1.0.0%20(1).png)
-
-## Project overview
-
-This repository contains the complete hardware design and production outputs for the board:
-
-- Schematic and PCB source files (KiCad)
-- Gerber/drill/fabrication files for manufacturing
-- Pick-and-place and BOM-style output files
-
-## Hardware at a glance
-
-- **MCU:** Raspberry Pi **RP2040**
-- **USB:** USB Type-C (USB 2.0 receptacle)
-- **Flash:** W25Q128JVS external SPI flash
-- **Regulator:** MCP1700 3.3V LDO
-- **Clock:** 4-pin crystal with external load capacitors
-- **User input:** Push button
-- **Built-in Button** Push Button
-- **Built-in LED** Just like the cool kids
-
-## Repository structure
-
-- `/PCB_DESIGN`  
-  KiCad source files:
-  - `Pokemon Devboard.kicad_sch`
-  - `Pokemon Devboard.kicad_pcb`
-  - `Pokemon Devboard.kicad_pro`
-
-- `/production`  
-  Uncompressed manufacturing outputs (Gerbers, drill files, BOM/position files, ODB package).
-
-- `PRODUCTION.zip`  
-  Zipped production package for fabrication upload.
-
-## Pictures
-<img width="1121" height="769" alt="image" src="https://github.com/user-attachments/assets/65c20d34-b1eb-4131-a6ce-ca79fec8d8f4" />
-
-<img width="346" height="858" alt="image" src="https://github.com/user-attachments/assets/cc9cbd69-f218-4c7d-9662-d472e77facae" />
-
-<br>
-<img width="500" height="1152" alt="image" src="https://github.com/user-attachments/assets/5d9a5d58-773c-412d-ba85-abe20fdcf6a6" />
-
-<img width="500" height="1152" alt="image" src="https://github.com/user-attachments/assets/86c37884-b516-41c5-99f2-29ca74552a21" />
-
-
-
-## Made for Macondo!
-https://macondo.hackclub.com/projects/6075
+# pokemon_devboard0
+ 
+a pokemon themed rp2040 dev board designed in kicad, arduino form factor lookalike
+ 
+## features
+ 
+- rp2040 mcu, 30 gpio broken out
+- usb_c input with mcp1700 3.3v regulator
+- w25q128jvs 16mb qspi flash for program storage
+- 12mhz crystal oscillator
+- reset button and bootsel button
+- 2 user leds on gpio2 and gpio3
+- 2 user buttons on gpio4 and gpio5
+- swd debug header (swclk, swdio, gnd)
+- gpioa and gpiob headers for full pin access
+- power headers for gnd, 3v3, and 5v lines
+- test pads for gnd, 3v3, 5v, swclk, swdio, run, and 2 mounting holes
+## power
+ 
+usb_c feeds vbus into the mcp1700 330xxtt regulator, output is 3.3v. decoupling caps sit across usb_vdd, adc_avdd, vreg_vin, vreg_vout, and dvdd per the rp2040 datasheet recommendations.
+ 
+## flash
+ 
+w25q128jvs wired to the rp2040 qspi bus (qspi_ss, qspi_sclk, qspi_sd0 to sd3). sw1 is the bootsel button, pulls qspi_ss to select flash bootrom mode on boot.
+ 
+## files
+ 
+- pcb_design, kicad project, schematic and board layout
+- production, gerbers and fab outputs ready to send out
+- gerber.zip, zipped gerbers for ordering
+- readme.md, this file
+## status
+ 
+schematic and layout done, routing complete on data pins, power, and debug header. next step is ordering boards and doing bring up
