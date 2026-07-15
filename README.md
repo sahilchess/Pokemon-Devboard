@@ -4,7 +4,7 @@ a pokemon themed rp2040 dev board designed in kicad, arduino form factor lookali
 
 **made for macondo** [here](https://macondo.hackclub.com/projects/6075)
 
-<img width="4000" height="678" alt="image" src="https://github.com/user-attachments/assets/298cd4e4-e34d-43fa-a4a7-8d023f51e578" />
+<img width="4000" height="auto" alt="image" src="https://github.com/user-attachments/assets/298cd4e4-e34d-43fa-a4a7-8d023f51e578" />
 
 ## features
  
