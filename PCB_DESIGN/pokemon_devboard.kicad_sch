@@ -5758,7 +5758,7 @@
 		)
 		(uuid "3e4abae9-dbf1-4481-acfa-92a6d96f9dd7")
 	)
-	(text_box "Test Pads"
+	(text_box "HOLES"
 		(exclude_from_sim no)
 		(at 182.88 236.22 0)
 		(size 82.55 48.26)
@@ -6109,6 +6109,12 @@
 		(uuid "7586d330-48e2-4eeb-ad52-b8718aada5ed")
 	)
 	(junction
+		(at 218.44 246.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "75c5e5a4-42fd-4f4c-9e83-a39a3454abd4")
+	)
+	(junction
 		(at 160.02 213.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6265,6 +6271,12 @@
 		(uuid "ca7d4199-7f5d-4e0b-b1f7-8be09cd04b92")
 	)
 	(junction
+		(at 205.74 246.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "caaaf54f-4e74-4fe6-a543-abd56bf25dea")
+	)
+	(junction
 		(at 172.72 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6281,6 +6293,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "db51b892-bdec-441d-bbbd-afb4a053b57a")
+	)
+	(junction
+		(at 212.09 246.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e3f78579-a4a4-42e4-8c65-9822ee06cc67")
 	)
 	(junction
 		(at 111.76 22.86)
@@ -6558,6 +6576,16 @@
 	)
 	(wire
 		(pts
+			(xy 212.09 246.38) (xy 218.44 246.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b37d671-e89f-4a2d-a64a-34e42575e475")
+	)
+	(wire
+		(pts
 			(xy 118.11 227.33) (xy 118.11 229.87)
 		)
 		(stroke
@@ -6788,6 +6816,16 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 246.38) (xy 205.74 246.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32b46d07-3c4f-4a3d-b362-19b9af026367")
+	)
+	(wire
+		(pts
 			(xy 138.43 219.71) (xy 138.43 222.25)
 		)
 		(stroke
@@ -6865,6 +6903,16 @@
 			(type default)
 		)
 		(uuid "395a43cf-1084-46d9-beaa-a4984d973866")
+	)
+	(wire
+		(pts
+			(xy 212.09 246.38) (xy 212.09 255.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39d65cc6-8f71-4e3b-85d6-fe45c7e16aa9")
 	)
 	(wire
 		(pts
@@ -7105,6 +7153,16 @@
 			(type default)
 		)
 		(uuid "53fb8388-33ec-49ac-b758-e20016a60015")
+	)
+	(wire
+		(pts
+			(xy 218.44 246.38) (xy 231.14 246.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55a279a1-3874-4622-a0c5-1757d6e02442")
 	)
 	(wire
 		(pts
@@ -8385,6 +8443,16 @@
 			(type default)
 		)
 		(uuid "e55957ee-8e02-491d-bcf7-2291d17e67c6")
+	)
+	(wire
+		(pts
+			(xy 205.74 246.38) (xy 212.09 246.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5c64bfb-2ce3-468d-9f8d-e4a3a845ee14")
 	)
 	(wire
 		(pts
@@ -11410,7 +11478,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 28.448 102.87 90)
 			(hide yes)
 			(show_name no)
@@ -11802,7 +11870,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 237.998 97.79 90)
 			(hide yes)
 			(show_name no)
@@ -12170,7 +12238,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad"
 			(at 210.82 246.38 0)
 			(hide yes)
 			(show_name no)
@@ -13111,7 +13179,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "gnd"
+		(property "Value" "HOLE3"
 			(at 220.98 244.3479 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13122,7 +13190,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad"
 			(at 223.52 246.38 0)
 			(hide yes)
 			(show_name no)
@@ -14437,7 +14505,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad"
 			(at 195.58 246.38 0)
 			(hide yes)
 			(show_name no)
@@ -17345,6 +17413,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 212.09 255.27 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c763cc5e-cf52-4cbb-96f2-5f92ed587980")
+		(property "Reference" "#PWR041"
+			(at 212.09 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 212.09 260.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 212.09 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 212.09 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 212.09 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cf4316f8-e9fc-4b01-8f05-a01f5209d41e")
+		)
+		(instances
+			(project "pokemon_devboard"
+				(path "/efc55145-d896-4c99-bc93-b5ecf58c2676"
+					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Regulator_Linear:MCP1700x-330xxTT")
 		(at 77.47 25.4 0)
 		(unit 1)
@@ -17795,7 +17941,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "gnd"
+		(property "Value" "HOLE4"
 			(at 233.68 244.3479 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17806,7 +17952,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad"
 			(at 236.22 246.38 0)
 			(hide yes)
 			(show_name no)
@@ -18117,7 +18263,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 28.448 82.55 90)
 			(hide yes)
 			(show_name no)
