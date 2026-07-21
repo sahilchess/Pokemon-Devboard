@@ -1,6 +1,6 @@
-# [pokemon_devboard0](https://kicanvas.org/?repo=https%3A%2F%2Fgithub.com%2Fsahilchess%2FPokemon-Devboard%2Ftree%2Fmain%2FPCB_DESIGN)
+# [Pokemon Devboard](https://kicanvas.org/?repo=https%3A%2F%2Fgithub.com%2Fsahilchess%2FPokemon-Devboard%2Ftree%2Fmain%2FPCB_DESIGN)
  
-a pokemon themed rp2040 dev board designed in kicad, arduino form factor lookalike
+a pokemon themed rp2040 dev board designed in kicad, arduino lookalike
 
 **made for macondo** [here](https://macondo.hackclub.com/projects/6075)
 
