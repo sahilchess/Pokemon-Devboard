@@ -2,7 +2,7 @@
  
 a pokemon themed rp2040 dev board designed in kicad, arduino lookalike
 
-**made for macondo** [here](https://macondo.hackclub.com/projects/6075)
+[woah whats this?](https://macondo.hackclub.com/projects/6075)
 
 <img width="4000" height="auto" alt="image" src="https://github.com/user-attachments/assets/298cd4e4-e34d-43fa-a4a7-8d023f51e578" />
 
@@ -44,3 +44,4 @@ ready to buy from jlcpcb, waiting on HC grant card
 <img width="4000" height="auto" alt="image" src="https://github.com/user-attachments/assets/705a63e4-4e88-4b53-9f6c-20467da256ab" />
 
 
+**made for macondo** 
