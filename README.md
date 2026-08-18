@@ -19,6 +19,18 @@ a pokemon themed rp2040 dev board designed in kicad, arduino lookalike
 - gpioa and gpiob headers for full pin access
 - power headers for gnd, 3v3, and 5v lines
 - test pads for gnd, 3v3, 5v, swclk, swdio, run, and 2 mounting holes
+- clear pinouts with silkscreen
+
+## why i made this
+
+i've always liked the arduino form factor. it's simple, familiar, and just works. everyone knows it. but here's what bugged me, arduino is literally the biggest mcu maker in the world and they never upgraded the chip. they just stuck with the old 8-bit avrs while everything else moved on to faster processors.
+
+so i wondered, what if i could take the rp2040, which is actually good, and put it in that arduino shape? no one was doing it. so i did it.
+
+making this taught me a ton about power delivery, flash wiring, schematic design, all the stuff that goes into actually making something people can use. and honestly, it's just cool to know i bridged that gap. the arduino form factor is iconic because it works, and the rp2040 is fast and has tons of gpio. now you get both.
+
+if you build with this, you get the form factor you already know how to use but way more power under the hood.
+
 ## power
  
 usb_c feeds vbus into the mcp1700 330xxtt regulator, output is 3.3v and 5v. decoupling caps sit across usb_vdd, adc_avdd, vreg_vin, vreg_vout, and dvdd per the rp2040 datasheet recommendations.
@@ -33,17 +45,32 @@ w25q128jvs wired to the rp2040 qspi bus (qspi_ss, qspi_sclk, qspi_sd0 to sd3). s
 - production, gerbers and fab outputs ready to send out
 - gerber.zip, zipped gerbers for ordering
 - readme.md, this file
+
+## getting started
+
+just plug it in.
+
+plug usb_c into your computer. it should show up as a usb device. download the rp2040 sdk or use the arduino ide with the rp2040 board package installed.
+
+if you want to load firmware, hit the bootsel button (sw1) while plugging in usb or while pressing reset. this puts the board into bootloader mode and a new drive shows up on your computer. drag your .uf2 file onto it and you're done.
+
+if you want to use the swd header for debugging, you need a debugger (picoprobe, j-link, whatever you have). the header is swclk, swdio, and gnd. connect them and you can step through code with gdb.
+
+the two leds on gpio2 and gpio3 blink by default on boot so you know it's working. the two buttons on gpio4 and gpio5 are yours to do whatever with.
+
+all 30 gpio pins are on the gpioa and gpiob headers so you can break out whatever you need. power headers have gnd, 3v3, and 5v if you're powering other stuff.
+
 ## status
  
 ready to buy from jlcpcb, waiting on HC grant card
 
 ## pictures
+
 <img width="4000" height="auto" alt="image" src="https://github.com/user-attachments/assets/f6cee3b5-ba18-4dc4-8d5f-515fc8583687" />
 <img width="4000" height="auto" alt="image" src="https://github.com/user-attachments/assets/8cdeff5a-7641-427f-8762-d7c6319703e3" />
 <img width="4000" height="auto" alt="image" src="https://github.com/user-attachments/assets/05668771-2855-4777-89d4-3b7bf1a5aacf" />
 <img width="4000" height="auto" alt="image" src="https://github.com/user-attachments/assets/705a63e4-4e88-4b53-9f6c-20467da256ab" />
 
-## bom table
 ## Bill of Materials
 
 | Component | Value | Qty | Footprint | LCSC Part # | Link | Unit Cost | Total |
@@ -73,8 +100,6 @@ ready to buy from jlcpcb, waiting on HC grant card
 | Y2 | 12MHz Crystal | 1 | 3225 4-Pin | C9002 | [LCSC](https://www.lcsc.com/product-detail/C9002.html?s_z=n_q_C9002&globalKeyword=C9002) | $0.0953 | $0.0953 |
 
 **Total Components:** 72  
-**Estimated Build Cost:** $6.08 USD
+**Estimated Build Cost:** $48.28 USD
 
-
-
-**made for macondo** 
+**made for macondo**
