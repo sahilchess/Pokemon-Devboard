@@ -1,6 +1,6 @@
 Component,Value,Quantity,Footprint,LCSC Part #,Link,Unit Cost (USD),Total Cost (USD)
 "C1-C8, C11, C12, C17",0.1µF,11,0402,C1525,https://www.lcsc.com/product-detail/C1525.html?s_z=n_q_C1525&globalKeyword=C1525,0.0055,0.0605
-"C9, C10",1µF,2,0402,C52923,https://www.lcsc.com/product-detail/C52923.html?s_z=n_q_C52923&globalKeyword=C52923,0.0063,0.0126
+"C9, C10",1µF,2,0402,C52923,https://www.lcsc.com/product-detail/C52923.html?s_z=n_q_C52923&globalKeyword=C52923,0.0126,0.0252
 "C13, C14",10µF,2,0603,C19702,https://www.lcsc.com/product-detail/C19702.html?s_z=n_q_C19702&globalKeyword=C19702,0.0180,0.0360
 "C15, C16",33pF,2,0402,C1562,https://www.lcsc.com/product-detail/C1562.html?s_z=n_q_C1562&globalKeyword=C1562,0.0050,0.0100
 "GPIO2, GPIO3",LED,2,0805,C2297,https://www.lcsc.com/product-detail/C2297.html?s_z=n_q_C2297&globalKeyword=C2297,0.0450,0.0900
