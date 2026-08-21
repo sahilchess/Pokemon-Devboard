@@ -45,10 +45,11 @@ i tried using an autorouter called freerouter but it failed very badly. now i ha
 # May 26: Done with routing
 
 that was true pain. it never ended. tomorrow i have to fix up the drc and add the art, but at least the pain is done (foreshadowing). idk really if the drc fixing will be harder than the pain. i might hand solder it, idk yet. i'm kinda scared bc my desk isn't protected with a silicone mat. if i get a grant to buy the board and buy soldering stuff, then i probably will hand solder
-## no ratlines
+
+no ratlines
 <img width="329" height="763" alt="image" src="https://github.com/user-attachments/assets/e7f2773a-fe1c-4ef4-a86e-ea46951e361c" />
 
-## done routing
+ done routing
 <img width="338" height="772" alt="image" src="https://github.com/user-attachments/assets/e9172025-360a-4284-8a92-b46fb07ff882" />
 
 
