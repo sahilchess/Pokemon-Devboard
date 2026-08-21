@@ -23,7 +23,7 @@ a pokemon themed rp2040 dev board designed in kicad, arduino lookalike
 
 ## why i made this
 
-i've always liked the arduino form factor. it's simple, familiar, and just works. everyone knows it. but here's what bugged me, arduino is literally the biggest mcu maker in the world and they never upgraded the chip. they just stuck with the old 8-bit avrs while everything else moved on to faster processors.
+i've always liked the arduino form factor. it's simple and just works. everyone knows it. but here's what got me thinkin, arduino is literally the biggest mcu maker in the world and they never made the chip better. they just stuck with the old 8-bit avrs while everything else moved on to faster processors.
 
 so i wondered, what if i could take the rp2040, which is actually good, and put it in that arduino shape? no one was doing it. so i did it.
 
