@@ -92,7 +92,8 @@ now here is a cool thing. i love arduinos, but arduinos is a really horrible mcu
 here we are. i made a pi pico with female header pins and gnd and 3v3 lines inspired by the prototype shields for arduino
 
 i am gonna try a new design with more organized pins like gpios here gnds here etc. it will look more like an arduino but with an rp2040
-img width="565" height="518" alt="image" src="https://github.com/user-attachments/assets/118fac76-dfcf-4ca4-9a07-4032beb75f1f" />
+
+<img width="565" height="518" alt="image" src="https://github.com/user-attachments/assets/118fac76-dfcf-4ca4-9a07-4032beb75f1f" />
 
 **Total time spent: 0 hours**
 
