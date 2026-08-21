@@ -77,14 +77,14 @@ when i was making some polishes for my design, i realized that my total funding 
 
 i changed the w25q128jveiq to a bigger footprint because the smaller one was not available on jlcpcb. the bom is pretty expansive so imma try to make it less
 <img width="584" height="213" alt="image" src="https://github.com/user-attachments/assets/20809ff9-a5c4-4be4-9d1f-1cdccd9cd142" />
-**Total time spent: 0 hours**
+**Total time spent: 0.1 hours**
 
 # Jun 21: BOM
 
 this was pretty tricky getting the bom cheaper, but i got it done. originally it used to be $80 but i and claude and gemini made the bom $44. total is $51 with tax and yeah, im done
 <img width="581" height="608" alt="image" src="https://github.com/user-attachments/assets/c2fac6a4-6fa5-4b36-aaf9-90d522e0065a" />
 
-**Total time spent: 0 hours**
+**Total time spent: 0.1 hours**
 
 # Jul 11: goal
 
@@ -96,7 +96,7 @@ i am gonna try a new design with more organized pins like gpios here gnds here e
 
 <img width="565" height="518" alt="image" src="https://github.com/user-attachments/assets/118fac76-dfcf-4ca4-9a07-4032beb75f1f" />
 
-**Total time spent: 0 hours**
+**Total time spent: 0.1 hours**
 
 # Jul 14: 2 designs
 
@@ -115,7 +115,7 @@ both are obvi not done still needs some minor improvements like silkscreen. i tr
 here we are. very close now all we need is fabrication and production. i may add more stuff idk yet
 <img width="565" height="373" alt="image" src="https://github.com/user-attachments/assets/8ec79a6e-3df3-461f-8776-14abd8e2b334" />
 
-**Total time spent: 0 hours**
+**Total time spent: 0.1 hours**
 
 # Jul 15: production
 
@@ -123,7 +123,7 @@ i liked how this turned out. i hope this gets approved. i found that if you make
 <img width="564" height="417" alt="image" src="https://github.com/user-attachments/assets/9870fcdf-9a4a-44a7-a368-88ef388af355" />
 <img width="572" height="555" alt="image" src="https://github.com/user-attachments/assets/46b8f4dd-66d3-4608-844f-181c62d310f4" />
 
-**Total time spent: 0 hours**
+**Total time spent: 0.1 hours**
 
 # Aug 17: made it ready for more production
 
