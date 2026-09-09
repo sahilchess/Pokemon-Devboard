@@ -72,7 +72,7 @@ ready to buy from jlcpcb, waiting on HC grant card
 <img width="4000" height="auto" alt="image" src="https://github.com/user-attachments/assets/705a63e4-4e88-4b53-9f6c-20467da256ab" />
 
 ## Bill of Materials
-
+<!--
 | Component | Value | Qty | Footprint | LCSC Part # | Link | Unit Cost | Total |
 |-----------|-------|-----|-----------|-------------|------|-----------|-------|
 | C1-C8, C11, C12, C17 | 0.1µF | 11 | 0402 | C1525 | [LCSC](https://www.lcsc.com/product-detail/C1525.html?s_z=n_q_C1525&globalKeyword=C1525) | $0.0055 | $0.0605 |
@@ -102,4 +102,6 @@ ready to buy from jlcpcb, waiting on HC grant card
 **Total Components:** 72  
 **Estimated Build Cost:** $48.28 USD
 
-**made for macondo**
+-->
+
+**made for forge**
