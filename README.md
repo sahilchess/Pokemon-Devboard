@@ -72,6 +72,7 @@ ready to buy from jlcpcb, waiting on HC grant card
 <img width="4000" height="auto" alt="image" src="https://github.com/user-attachments/assets/705a63e4-4e88-4b53-9f6c-20467da256ab" />
 
 ## Bill of Materials
+[here](https://github.com/sahilchess/Pokemon-Devboard/blob/main/production/bom.csv)
 <!--
 | Component | Value | Qty | Footprint | LCSC Part # | Link | Unit Cost | Total |
 |-----------|-------|-----|-----------|-------------|------|-----------|-------|
