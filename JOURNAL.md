@@ -1,92 +1,97 @@
 ---
-title: "Pikachu Devboard"
+title: "Pokemon Devboard"
 author: "sahil"
 description: "RP2040 development board inspired by Arduino shape with Pokémon theming"
 created_at: "2026-05-25"
 ---
 
-# May 25: Hackatime???
+# May 25: the idea
 
-hackatime isn't working so just doing journals instead. picked the pokemon theme because i wanted something more fun than a plain dev board and figured a pikachu skin would make people actually want to pick it up
+For the idea, I wanted to create a custom devboard because I thought that was cool. I didn't know how to so I will follow a guide on Macondo. Imma choose a Pokémon theme because i love Pokémon (obviously).  
 
-<img width="560" height="510" alt="image" src="https://github.com/user-attachments/assets/22aa71e9-48b1-4716-9dfa-0390b4d5f37e" />
+**Total time spent: 0 hours**
 
-**Total time spent: 1 hour**
+# May 25: Started the schematic
+
+after a meeting with a macondo guide, i read the room and saw that most of it was: see raspberry pi pico, find that part datasheet, put it in schematic. so imma leave the guide and do it myself... here is the RP2040 with the decoupling caps. these are needed to stabilize voltage and reduce high-frequency noise
+
+<img width="auto" height="300" alt="image" src="https://github.com/user-attachments/assets/22aa71e9-48b1-4716-9dfa-0390b4d5f37e" />
+
+**Total time spent: 2 hour**
+
+# May 25: working on schematic
+
+firstly, the usb is needed to get power to the stuff. next, we have the buttons and leds that are meta with custom devboards. and lastly, we have our crystal and SDI for flash memory and the crystal for a clock. I had to go to the websites to find the datasheets. i was easily able to find these after searching up the par
+
+<img width="auto" height="200" alt="image" src="https://github.com/user-attachments/assets/1aaf2cbf-63c7-464f-8847-2caafef26c5b" />
+<img width="auto" height="200" alt="image" src="https://github.com/user-attachments/assets/320588f0-4d00-4a62-9292-6443f04d2783" />
+<img width="auto" height="200" alt="image" src="https://github.com/user-attachments/assets/60a0bef5-4c86-47ca-a3f0-d608cb68041d" />
+
+
+**Total time spent: 4 hours**
 
 # May 26: Finished with the Schematic!!
 
-went through the tutorial and it explained the why behind every part choice so well that i actually understood what i was placing instead of just copying blindly. that mattered a lot here since this is my first real rp2040 board and i didn't want to just cargo cult a reference schematic without knowing what each section does
+i realized I also need header pins so here they are. Additionally, I added those cool blue boxes for labeling the parts and stuff. here is the finished design
 
-<img width="587" height="566" alt="image" src="https://github.com/user-attachments/assets/8f7039d1-e88a-46c3-8e39-636df7d655f1" />
-<img width="566" height="389" alt="image" src="https://github.com/user-attachments/assets/f2eac987-1a57-4136-b9a0-90d6c487350d" />
-<img width="561" height="387" alt="image" src="https://github.com/user-attachments/assets/4f956411-a2e5-4651-a2fb-0f104709f902" />
+<img width="auto" height="200" alt="image" src="https://github.com/user-attachments/assets/8f7039d1-e88a-46c3-8e39-636df7d655f1" />
+<img width="auto" height="200" alt="image" src="https://github.com/user-attachments/assets/f2eac987-1a57-4136-b9a0-90d6c487350d" />
+<img width="auto" height="200" alt="image" src="https://github.com/user-attachments/assets/4f956411-a2e5-4651-a2fb-0f104709f902" />
 
-hackatime wasn't tracking for part of this so the total below is off, actual time was closer to 2 hours
+**Total time spent: 2 hour**
 
-**Total time spent: 2 hours**
+# May 26: placed parts!
 
-# May 26: YAY!
+now that i finished assigning parts, i also finished placing all my parts on the board. this was simple bc i js looked at a pico i have at my desk and put stuff so it looks like a normal pico. 
 
-schematic is done and everything is placed on the pcb. left placement loose for now since routing will probably force me to shuffle a few parts around anyway. all that's left is routing
+<img width="auto" height="200" alt="image" src="https://github.com/user-attachments/assets/3aadccd5-2912-41ef-a039-16236b878461" />
 
-<img width="338" height="750" alt="image" src="https://github.com/user-attachments/assets/3aadccd5-2912-41ef-a039-16236b878461" />
-
-**Total time spent: 0.5 hours**
+**Total time spent: 1.5 hours**
 
 # May 26: Wiring is painful
 
 tried an autorouter called freerouting to save time but it made a mess, traces crossing weird and not respecting spacing, so i scrapped that and did it all by hand instead. the hard part isn't drawing the traces, it's keeping enough space for everything, keeping a consistent style across the board, and not wasting space i'll want later for the copper pour
 
-<img width="314" height="663" alt="image" src="https://github.com/user-attachments/assets/407353ee-8303-4a07-afd9-f74bb938ed5a" />
+<img width="auto" height="200" alt="image" src="https://github.com/user-attachments/assets/407353ee-8303-4a07-afd9-f74bb938ed5a" />
 
-**Total time spent: 1 hour**
 
-# May 26: Done with routing
+As I said, finished routing by hand after freerouting failed. No ratlines left which means every net is connected. next up is fixing drc errors and adding the silkscreen art, still not sure if that or the hand soldering later will be the bigger pain
 
-finished routing by hand after freerouting failed. no ratlines left which means every net is connected. next up is fixing drc errors and adding the silkscreen art, still not sure if that or the hand soldering later will be the bigger pain
+to reiterate, ive been thinking about whether i even want to hand solder this myself, my desk isn't protected with a silicone mat right now so if i get funding for the board i'll probably grab soldering gear and a mat before touching an iron to it
 
-also been thinking about whether i even want to hand solder this myself, my desk isn't protected with a silicone mat right now so if i get funding for the board i'll probably grab soldering gear and a mat before touching an iron to it
+that was very hard. i dont know how the makers of the raspberry pi pico did it. i think that a bigger board will make this hella easy
 
-no ratlines
-<img width="329" height="763" alt="image" src="https://github.com/user-attachments/assets/e7f2773a-fe1c-4ef4-a86e-ea46951e361c" />
+no ratlines and done routing
 
-done routing
-<img width="338" height="772" alt="image" src="https://github.com/user-attachments/assets/e9172025-360a-4284-8a92-b46fb07ff882" />
+<img width="auto" height="200" alt="image" src="https://github.com/user-attachments/assets/e7f2773a-fe1c-4ef4-a86e-ea46951e361c" />
+<img width="auto" height="200" alt="image" src="https://github.com/user-attachments/assets/e9172025-360a-4284-8a92-b46fb07ff882" />
 
-**Total time spent: 0.1 hours**
+**Total time spent: 6 hours**
 
 # May 27: Done!!!!!
 
-made a pikachu banner in canva for the silkscreen, happy with how it came out. finished the drc cleanup and silkscreen after that, uploaded everything to github, and pulled a quote from jlcpcb so i know roughly what this is going to cost
+made a pikachu banner in canva, happy with how it came out. finished the drc cleanup and silkscreen after that, uploaded everything to github, and pulled a quote from jlcpcb so i know roughly what this is going to cost
 
-<img width="569" height="291" alt="image" src="https://github.com/user-attachments/assets/d3968e35-9d48-4b55-8a9a-00275af9c7c5" />
-<img width="576" height="211" alt="image" src="https://github.com/user-attachments/assets/681ddbbd-b1af-4e96-821e-c622d356d686" />
+<img width="auto" height="200" alt="image" src="https://github.com/user-attachments/assets/d3968e35-9d48-4b55-8a9a-00275af9c7c5" />
+<img width="auto" height="200" alt="image" src="https://github.com/user-attachments/assets/681ddbbd-b1af-4e96-821e-c622d356d686" />
 
-**Total time spent: 0.5 hours**
-
-# May 27: Decisions
-
-ran the numbers through the macondo calc to see what hand soldering gear would actually cost in hours, not just dollars. $120 for a hotplate, flux, and solder paste worked out to 27 hours, and even a bare minimum hotplate only setup was still 8 hours. sat with that for a bit and decided it wasn't worth eating that much of my budget right now, i can always hand solder it a different day if i still want to
-
-<img width="577" height="529" alt="image" src="https://github.com/user-attachments/assets/45f07c31-0278-41b2-beb0-6aa3612d4ac2" />
-
-**Total time spent: 0.01 hours**
+**Total time spent: 1.5 hours**
 
 # Jun 20: Submitting for funding (close)
 
-swapped the w25q128jveiq flash chip to a bigger footprint because the smaller package wasn't in stock on jlcpcb, and an out of stock part would've held up the whole order. the bom ballooned because of that so i'm going through it to trim cost back down
+swapped the w25q128jveiq flash chip to a bigger footprint because the smaller package wasn't in stock on jlcpcb, and an out of stock part would've held up the whole order. the bom ballooned because of that so i'm going through it to trim cost back down. i had to reformat my bom becuase the one on kicad sucks bc jlcpcb doesnt requires a different format.
 
-<img width="584" height="213" alt="image" src="https://github.com/user-attachments/assets/20809ff9-a5c4-4be4-9d1f-1cdccd9cd142" />
+<img width="auto" height="200" alt="image" src="https://github.com/user-attachments/assets/20809ff9-a5c4-4be4-9d1f-1cdccd9cd142" />
 
-**Total time spent: 0.1 hours**
+**Total time spent: 1 hour **
 
-# Jun 21: BOM
+# Jul 10: deciding to redesign
 
-getting the bom cheaper was harder than i expected, mostly hunting for cheaper equivalents part by part without dropping to something that's not in stock. worked through it with claude and gemini going back and forth on part suggestions and got it from $80 down to $44, $51 after tax
 
-<img width="581" height="608" alt="image" src="https://github.com/user-attachments/assets/c2fac6a4-6fa5-4b36-aaf9-90d522e0065a" />
 
-**Total time spent: 0.1 hours**
+while i did say i was close to submitting for funding, that was the bad design that i dont like. i am redesigning rn. okay after a long side quest i am back to this devboard. i was thinking that picos are just too basic and the board i have rn is really similar to a normal rpp. imma make a arduino.
+
+**Total time spent: 0.5 hours**
 
 # Jul 11: goal
 
@@ -94,42 +99,43 @@ arduinos are the most beginner friendly boards out there but the mcu itself is p
 
 started by taking a pico and adding female header pins plus gnd and 3v3 rails, similar to how arduino prototype shields are laid out. next revision i want to organize the pinout more clearly, gpios grouped together, grounds grouped together, so it reads more like a real arduino shield than a breakout board
 
-<img width="565" height="518" alt="image" src="https://github.com/user-attachments/assets/118fac76-dfcf-4ca4-9a07-4032beb75f1f" />
+i may also add some extra stuff... stay tuned to find out!
 
-**Total time spent: 0.1 hours**
-
-# Jul 14: 2 designs
-
-landed on two directions, one that looks like a pico breakout and one that looks like an arduino. lapse randomly stopped recording partway through so the time below is an underestimate. tried to keep traces neat on both, but i'm leaning toward the arduino looking one since that was the whole point of this board, familiarity for people who already know arduino pinouts
-
-both still need small cleanup like silkscreen before either is final
-
-<img width="562" height="636" alt="image" src="https://github.com/user-attachments/assets/a5f092ab-8096-48fc-8b21-b0deb7822a93" />
-<img width="570" height="377" alt="image" src="https://github.com/user-attachments/assets/9b0bb110-bc54-4629-8c4f-89b0a2076d06" />
+<img width="auto" height="200" alt="image" src="https://github.com/user-attachments/assets/118fac76-dfcf-4ca4-9a07-4032beb75f1f" />
 
 **Total time spent: 2 hours**
 
-# Jul 14: quite close!
+# Jul 14: 2 designs
+
+landed on two directions, one that looks like a pico breakout and one that looks like an arduino. tried to keep traces neat on both, but i'm leaning toward the arduino looking one since that was the whole point of this board, familiarity for people who already know arduino pinouts. i found the arduino template board on github and i kinda like it but the corners are pretty sharp.
+
+both still need small cleanup like silkscreen before either is final
+
+<img width="auto" height="200" alt="image" src="https://github.com/user-attachments/assets/a5f092ab-8096-48fc-8b21-b0deb7822a93" />
+<img width="auto" height="200" alt="image" src="https://github.com/user-attachments/assets/9b0bb110-bc54-4629-8c4f-89b0a2076d06" />
+
+**Total time spent: 6 hours**
+
+# Jul 14: adding stuff and making it cleaner
 
 picked the arduino style design and cleaned it up further. main thing left is fabrication and production, though i might still add a couple more features if i think of something worth the extra bom cost
 
-<img width="565" height="373" alt="image" src="https://github.com/user-attachments/assets/8ec79a6e-3df3-461f-8776-14abd8e2b334" />
+got production numbers together. found that setting jlcpcb to only assemble 2 of the 5 boards instead of all 5 saves about $20, since i don't need every panel populated right now and can hand solder the rest later if i want more.
 
-**Total time spent: 0.1 hours**
+for the changes i added: i rounded the corners on the arduino so it looks better, i added test pads on the left, i added power rails on the left, and i added hella tuff silkscreen.
 
-# Jul 15: production
+<img width="auto" height="200" alt="image" src="https://github.com/user-attachments/assets/8ec79a6e-3df3-461f-8776-14abd8e2b334" />
+<img width="auto" height="200" alt="image" src="https://github.com/user-attachments/assets/9870fcdf-9a4a-44a7-a368-88ef388af355" />
+<img width="auto" height="200" alt="image" src="https://github.com/user-attachments/assets/46b8f4dd-66d3-4608-844f-181c62d310f4" />
 
-got production numbers together. found that setting jlcpcb to only assemble 2 of the 5 boards instead of all 5 saves about $20, since i don't need every panel populated right now and can hand solder the rest later if i want more
-
-<img width="564" height="417" alt="image" src="https://github.com/user-attachments/assets/9870fcdf-9a4a-44a7-a368-88ef388af355" />
-<img width="572" height="555" alt="image" src="https://github.com/user-attachments/assets/46b8f4dd-66d3-4608-844f-181c62d310f4" />
-
-**Total time spent: 0.1 hours**
+**Total time spent: 4 hours**
 
 # Aug 17: made it ready for more production
 
-after sitting in the queue for a month, it got rejected for not including a bom.csv, so i added that and updated the readme with why i built this board, a getting started section, and a bom image so anyone else looking at the repo actually understands what it is and how to use it
+did my bom (this may not be in the hackatime lapses idk im not really sure). this costs alot more than when i look int july so im just gonna buy stmg from the forge shop instead of buying the board. also the forge has its own special bom format so i have one in ignore/ for the bom i will upload for jlcpcb and one in procution/ that is the one for forge.
 
-<img width="577" height="281" alt="image" src="https://github.com/user-attachments/assets/ee7a356d-3192-472e-a304-b2a3b9903c9f" />
+note to reviewer: im trying to get the Aula mech keyboard, so could you like not deflate my hours wayyy to much so i wont be able to get that ? just a prefrence no need to follow if i do need a deflation. the aula is 110c btw
 
-**Total time spent: 1 hour**
+<img width="auto" height="400" alt="image" src="https://github.com/user-attachments/assets/8d5020f6-3b23-46f5-8344-bd91795a2f9d" />
+
+**Total time spent: 2 hours**
