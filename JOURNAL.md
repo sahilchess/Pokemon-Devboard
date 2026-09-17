@@ -134,7 +134,6 @@ for the changes i added: i rounded the corners on the arduino so it looks better
 
 did my bom (this may not be in the hackatime lapses idk im not really sure). this costs alot more than when i look int july so im just gonna buy stmg from the forge shop instead of buying the board. also the forge has its own special bom format so i have one in ignore/ for the bom i will upload for jlcpcb and one in procution/ that is the one for forge.
 
-note to reviewer: im trying to get the Aula mech keyboard, so could you like not deflate my hours wayyy to much so i wont be able to get that ? just a prefrence no need to follow if i do need a deflation. the aula is 110c btw
 
 <img width="auto" height="400" alt="image" src="https://github.com/user-attachments/assets/8d5020f6-3b23-46f5-8344-bd91795a2f9d" />
 
