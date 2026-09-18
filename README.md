@@ -60,9 +60,11 @@ the two leds on gpio2 and gpio3 blink by default on boot so you know it's workin
 
 all 30 gpio pins are on the gpioa and gpiob headers so you can break out whatever you need. power headers have gnd, 3v3, and 5v if you're powering other stuff.
 
+firmware: simple blink.ino [here](https://github.com/sahilchess/Pokemon-Devboard/blob/main/production/blink.ino)
+
 ## status
  
-ready to buy from jlcpcb, waiting on HC grant card
+ready to buy from jlcpcb,prolly wont tho and will just redeem coins from shop.
 
 ## pictures
 
