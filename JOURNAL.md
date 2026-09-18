@@ -9,6 +9,8 @@ created_at: "2026-05-25"
 
 For the idea, I wanted to create a custom devboard because I thought that was cool. I didn't know how to so I will follow a guide on Macondo. Imma choose a Pokémon theme because i love Pokémon (obviously).  
 
+<img width="auto" height="100" alt="image" src="https://github.com/user-attachments/assets/3cbe6a23-e43c-493f-a6a6-adc041553250" />
+
 **Total time spent: 0 hours**
 
 # May 25: Started the schematic
@@ -87,9 +89,12 @@ swapped the w25q128jveiq flash chip to a bigger footprint because the smaller pa
 
 # Jul 10: deciding to redesign
 
-
-
 while i did say i was close to submitting for funding, that was the bad design that i dont like. i am redesigning rn. okay after a long side quest i am back to this devboard. i was thinking that picos are just too basic and the board i have rn is really similar to a normal rpp. imma make a arduino.
+
+<img width="auto" height="400" alt="image" src="https://github.com/user-attachments/assets/41b05231-599b-4d79-be53-d29f78c2d538" />
+
+
+
 
 **Total time spent: 0.5 hours**
 
