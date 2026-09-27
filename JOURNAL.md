@@ -21,7 +21,7 @@ after a meeting with a macondo guide, i read the room and saw that most of it wa
 
 hackatime: [14m](https://lapse.hackclub.com/timelapse/PWaohIea3p6Q) -- [1hr 20m](https://lapse.hackclub.com/timelapse/IpuH7RUJf16H)
 
-**Total time spent: 1.7 hours**
+**Total time spent: 1.6 hours**
 
 # May 25: working on schematic
 
@@ -31,11 +31,6 @@ firstly, the usb is needed to get power to the stuff. next, we have the buttons 
 <img width="auto" height="200" alt="image" src="https://github.com/user-attachments/assets/320588f0-4d00-4a62-9292-6443f04d2783" />
 <img width="auto" height="200" alt="image" src="https://github.com/user-attachments/assets/60a0bef5-4c86-47ca-a3f0-d608cb68041d" />
 
-hackatime: [one](https://lapse.hackclub.com/timelapse/twbUsFzCFTM-) 
-
-**Total time spent: 4 hours**
-
-# May 26: Finished with the Schematic!!
 
 i realized I also need header pins so here they are. Additionally, I added those cool blue boxes for labeling the parts and stuff. here is the finished design
 
@@ -43,7 +38,10 @@ i realized I also need header pins so here they are. Additionally, I added those
 <img width="auto" height="200" alt="image" src="https://github.com/user-attachments/assets/f2eac987-1a57-4136-b9a0-90d6c487350d" />
 <img width="auto" height="200" alt="image" src="https://github.com/user-attachments/assets/4f956411-a2e5-4651-a2fb-0f104709f902" />
 
-**Total time spent: 2 hour**
+hackatime: [1hr 12m](https://lapse.hackclub.com/timelapse/twbUsFzCFTM-) 
+i will put 1 hr cuz i lolled around a bit.
+
+**Total time spent: 1.2 hours**
 
 # May 26: placed parts!
 
@@ -51,7 +49,9 @@ now that i finished assigning parts, i also finished placing all my parts on the
 
 <img width="auto" height="200" alt="image" src="https://github.com/user-attachments/assets/3aadccd5-2912-41ef-a039-16236b878461" />
 
-**Total time spent: 1.5 hours**
+hackatime: [1hr 21m](https://lapse.hackclub.com/timelapse/brgqWpoutHl4)
+
+**Total time spent: 1.4 hours**
 
 # May 26: Wiring is painful
 
@@ -71,24 +71,27 @@ no ratlines and done routing
 <img width="auto" height="200" alt="image" src="https://github.com/user-attachments/assets/e7f2773a-fe1c-4ef4-a86e-ea46951e361c" />
 <img width="auto" height="200" alt="image" src="https://github.com/user-attachments/assets/e9172025-360a-4284-8a92-b46fb07ff882" />
 
-**Total time spent: 6 hours**
+hackatime: [39m](https://lapse.hackclub.com/timelapse/BkfRdCr-NQaL) [1hr 6m](https://lapse.hackclub.com/timelapse/W5jPpFdagNB1) [3hr 54m](https://lapse.hackclub.com/timelapse/Kw_7oLqvejIB) [33m](https://lapse.hackclub.com/timelapse/6qH-JN70Ru1n)
 
-# May 27: Done!!!!!
+**Total time spent: 6.2 hours**
+
+# May 27: Done!!!!! (*read note)
 
 made a pikachu banner in canva, happy with how it came out. finished the drc cleanup and silkscreen after that, uploaded everything to github, and pulled a quote from jlcpcb so i know roughly what this is going to cost
 
 <img width="auto" height="200" alt="image" src="https://github.com/user-attachments/assets/d3968e35-9d48-4b55-8a9a-00275af9c7c5" />
 <img width="auto" height="200" alt="image" src="https://github.com/user-attachments/assets/681ddbbd-b1af-4e96-821e-c622d356d686" />
 
-**Total time spent: 1.5 hours**
-
-# Jun 20: Submitting for funding (close)
 
 swapped the w25q128jveiq flash chip to a bigger footprint because the smaller package wasn't in stock on jlcpcb, and an out of stock part would've held up the whole order. the bom ballooned because of that so i'm going through it to trim cost back down. i had to reformat my bom becuase the one on kicad sucks bc jlcpcb doesnt requires a different format.
 
 <img width="auto" height="200" alt="image" src="https://github.com/user-attachments/assets/20809ff9-a5c4-4be4-9d1f-1cdccd9cd142" />
 
-**Total time spent: 1 hour **
+hackatime: [2hr 16m](https://lapse.hackclub.com/timelapse/jjtq7Aw4q0OY) [1hr 1m](https://lapse.hackclub.com/timelapse/ulGjAfmP5DVY) [1hr 7m](https://lapse.hackclub.com/timelapse/k3W54B_Pve_G) [1hr 16m](https://lapse.hackclub.com/timelapse/rbFRxTP0l39V) [47m](https://lapse.hackclub.com/timelapse/rbFRxTP0l39V) 
+
+note from the future: if i was able to cut that lapse, i would. i really dont like how unorganized it was and i didnt do 100% designing. also, this was my first ship that i realized was boring (*read next entry). and OMG in these lapse streams i was so distracted :heavysob: 
+
+**Total time spent: 6.5 hours**
 
 # Jul 10: deciding to redesign
 
@@ -97,9 +100,9 @@ while i did say i was close to submitting for funding, that was the bad design t
 <img width="auto" height="400" alt="image" src="https://github.com/user-attachments/assets/41b05231-599b-4d79-be53-d29f78c2d538" />
 
 
+hackatime: n/a
 
-
-**Total time spent: 0.5 hours**
+**Total time spent: 0.2 hours**
 
 # Jul 11: goal
 
@@ -111,7 +114,9 @@ i may also add some extra stuff... stay tuned to find out!
 
 <img width="auto" height="200" alt="image" src="https://github.com/user-attachments/assets/118fac76-dfcf-4ca4-9a07-4032beb75f1f" />
 
-**Total time spent: 2 hours**
+hackatime: [1hr 9m](https://lapse.hackclub.com/timelapse/UZxMyfLuvEW2) [2hr 47m](https://lapse.hackclub.com/timelapse/0YN2RIAIrCG2)
+
+**Total time spent: 3.9 hours**
 
 # Jul 14: 2 designs
 
@@ -122,7 +127,8 @@ both still need small cleanup like silkscreen before either is final
 <img width="auto" height="200" alt="image" src="https://github.com/user-attachments/assets/a5f092ab-8096-48fc-8b21-b0deb7822a93" />
 <img width="auto" height="200" alt="image" src="https://github.com/user-attachments/assets/9b0bb110-bc54-4629-8c4f-89b0a2076d06" />
 
-**Total time spent: 6 hours**
+hackatime: [58m](https://lapse.hackclub.com/timelapse/zcPcXlxSsXgz) [1hr 26m](https://lapse.hackclub.com/timelapse/VHkb8mKCkyZk) [4m](https://lapse.hackclub.com/timelapse/mxhQwuakfWb2) [1hr 43m](https://lapse.hackclub.com/timelapse/mxhQwuakfWb2) [1hr 43m](https://lapse.hackclub.com/timelapse/KtD70gZxfL1F)
+**Total time spent: 5.9 hours**
 
 # Jul 14: adding stuff and making it cleaner
 
@@ -136,7 +142,11 @@ for the changes i added: i rounded the corners on the arduino so it looks better
 <img width="auto" height="200" alt="image" src="https://github.com/user-attachments/assets/9870fcdf-9a4a-44a7-a368-88ef388af355" />
 <img width="auto" height="200" alt="image" src="https://github.com/user-attachments/assets/46b8f4dd-66d3-4608-844f-181c62d310f4" />
 
-**Total time spent: 4 hours**
+hackatime: [26m](https://lapse.hackclub.com/timelapse/m449X6b-E8Zw) [4hr 52m](https://lapse.hackclub.com/timelapse/NlCVlNKGtRlv) [2hrs](https://lapse.hackclub.com/timelapse/QFIhM1hQPQil)
+
+
+
+**Total time spent: 7.3 hours**
 
 # Aug 17: made it ready for more production
 
@@ -145,4 +155,6 @@ did my bom (this may not be in the hackatime lapses idk im not really sure). thi
 
 <img width="auto" height="400" alt="image" src="https://github.com/user-attachments/assets/8d5020f6-3b23-46f5-8344-bd91795a2f9d" />
 
-**Total time spent: 2 hours**
+hackatime: [47m](https://lapse.hackclub.com/timelapse/Pao3cjAEDZEO) 
+
+**Total time spent: 0.8 hours**
