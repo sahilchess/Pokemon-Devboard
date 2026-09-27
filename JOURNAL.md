@@ -19,7 +19,9 @@ after a meeting with a macondo guide, i read the room and saw that most of it wa
 
 <img width="auto" height="300" alt="image" src="https://github.com/user-attachments/assets/22aa71e9-48b1-4716-9dfa-0390b4d5f37e" />
 
-**Total time spent: 2 hour**
+hackatime: [14m](https://lapse.hackclub.com/timelapse/PWaohIea3p6Q) -- [1hr 20m](https://lapse.hackclub.com/timelapse/IpuH7RUJf16H)
+
+**Total time spent: 1.7 hours**
 
 # May 25: working on schematic
 
@@ -29,6 +31,7 @@ firstly, the usb is needed to get power to the stuff. next, we have the buttons 
 <img width="auto" height="200" alt="image" src="https://github.com/user-attachments/assets/320588f0-4d00-4a62-9292-6443f04d2783" />
 <img width="auto" height="200" alt="image" src="https://github.com/user-attachments/assets/60a0bef5-4c86-47ca-a3f0-d608cb68041d" />
 
+hackatime: [one](https://lapse.hackclub.com/timelapse/twbUsFzCFTM-) 
 
 **Total time spent: 4 hours**
 
