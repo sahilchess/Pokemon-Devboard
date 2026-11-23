@@ -166,4 +166,4 @@ got the board in the mail and finally wowza that took forever. here are some pic
 <img width="auto" height="400" alt="image" src="assets/devboardBack.jpeg" />
 <img width="auto" height="400" alt="image" src="assets/devboardFront.jpeg" />
 
-**Total time spent: 0 hours**
+**Total time spent: 0.01 hours**
