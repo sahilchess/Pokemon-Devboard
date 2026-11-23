@@ -164,7 +164,8 @@ hackatime: [47m](https://lapse.hackclub.com/timelapse/Pao3cjAEDZEO)
 got the board in the mail and finally wowza that took forever. here are some pics. the bootsel works and stuff
 [demo vid here](https://user-cdn.hackclub-assets.com/01a2097b-8454-7e15-8ee4-90843d45d05b/pokemon%20devboard.mp4)
 
-<img width="auto" height="400" alt="image" src="assets/devboardBack.jpeg" />
-<img width="auto" height="400" alt="image" src="assets/devboardFront.jpeg" />
+<img width="auto" height="400" alt="image" src="https://github.com/user-attachments/assets/45d185e1-9e88-4780-95a2-ad6173b4c97c" />
+<img width="auto" height="400" alt="image" src="https://github.com/user-attachments/assets/49821a98-b2b3-4673-860f-db79f847473d" />
+
 
 **Total time spent: 0.01 hours**
