@@ -159,7 +159,8 @@ hackatime: [47m](https://lapse.hackclub.com/timelapse/Pao3cjAEDZEO)
 
 **Total time spent: 0.8 hours**
 
-## Nov 23: Got my board!
+# Nov 23: Got my board!
+
 got the board in the mail and finally wowza that took forever. here are some pics. the bootsel works and stuff
 [demo vid here](https://user-cdn.hackclub-assets.com/01a2097b-8454-7e15-8ee4-90843d45d05b/pokemon%20devboard.mp4)
 
