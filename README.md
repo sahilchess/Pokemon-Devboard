@@ -5,6 +5,9 @@ a pokemon themed rp2040 dev board designed in kicad, arduino lookalike
 [woah whats this?](https://forge.hackclub.com/projects/1680)
 
 <img width="4000" height="auto" alt="image" src="https://github.com/user-attachments/assets/298cd4e4-e34d-43fa-a4a7-8d023f51e578" />
+<img width="4000" height="auto" alt="image" src="https://github.com/user-attachments/assets/8e54bc19-630c-4906-b52d-e86715c36384" />
+
+
 
 ## features
  
